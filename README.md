@@ -12,7 +12,7 @@ PACMAN/
 │   ├── BFS.h                # BFS pathfinding algorithm class definition
 │   ├── ConsoleColor.h       # Enum for console colors
 │   ├── ConsoleUtils.h       # Static utility class encapsulating Windows Console API
-│   ├──  Direction.h          # Enum for movement directions (Up, Down, Left, Right)
+│   ├── Direction.h          # Enum for movement directions (Up, Down, Left, Right)
 │   ├── Edge.h               # Defines graph edges for building the movable grid
 │   ├── Game.h               # Main game controller definition
 │   ├── Ghost.h              # Ghost entity structure definition
@@ -40,7 +40,9 @@ PACMAN/
 
 ### Quick start
 ``` bash
-   
+   git clone https://github.com/hsungo/Pac-Man.git
+   cd Pac-Man
+   make run
 ```
 
 ## 🕹️ Controls
